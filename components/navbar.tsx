@@ -12,6 +12,7 @@ const Navbar = () => {
                         width={25}
                         height={24}
                     />
+                    Tech Events
                 </Link>
                 <ul>
                     <Link href={"/"}>Home</Link>
