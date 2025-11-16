@@ -86,7 +86,7 @@ const EventPage = async ({params}: {params: Promise<{slug: String}>}) => {
                 <div className="flex-1">
                     <div className="bg-white/5 bg-opacity-50  rounded-md p-4 sticky top-20">
                         <h2 className="text-3xl font-bold mb-2">Register for this Event</h2>
-                        <EventBooking />
+                        <EventBooking eventId={event._id} slug={event.slug} />
                     </div>
                 </div>
             </div>
